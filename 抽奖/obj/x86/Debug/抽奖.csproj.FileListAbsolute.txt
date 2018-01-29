@@ -1,0 +1,25 @@
+c:\users\timothy\documents\visual studio 2010\Projects\抽奖\抽奖\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\timothy\documents\visual studio 2010\Projects\抽奖\抽奖\obj\x86\Debug\抽奖.Form1.resources
+c:\users\timothy\documents\visual studio 2010\Projects\抽奖\抽奖\obj\x86\Debug\抽奖.Properties.Resources.resources
+c:\users\timothy\documents\visual studio 2010\Projects\抽奖\抽奖\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\timothy\documents\visual studio 2010\Projects\抽奖\抽奖\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\timothy\documents\visual studio 2010\Projects\抽奖\抽奖\bin\Debug\抽奖.exe
+c:\users\timothy\documents\visual studio 2010\Projects\抽奖\抽奖\bin\Debug\抽奖.pdb
+c:\users\timothy\documents\visual studio 2010\Projects\抽奖\抽奖\obj\x86\Debug\抽奖.exe
+c:\users\timothy\documents\visual studio 2010\Projects\抽奖\抽奖\obj\x86\Debug\抽奖.pdb
+C:\Users\Timothy\Documents\Visual Studio 2010\Projects\抽奖\抽奖\bin\Debug\抽奖.exe.manifest
+C:\Users\Timothy\Documents\Visual Studio 2010\Projects\抽奖\抽奖\bin\Debug\抽奖.application
+C:\Users\Timothy\Documents\Visual Studio 2010\Projects\抽奖\抽奖\obj\x86\Debug\抽奖.exe.manifest
+C:\Users\Timothy\Documents\Visual Studio 2010\Projects\抽奖\抽奖\obj\x86\Debug\抽奖.application
+E:\抽奖\抽奖\obj\x86\Debug\抽奖.exe
+E:\抽奖\抽奖\obj\x86\Debug\抽奖.pdb
+E:\抽奖\抽奖\bin\Debug\抽奖.exe.manifest
+E:\抽奖\抽奖\bin\Debug\抽奖.application
+E:\抽奖\抽奖\bin\Debug\抽奖.exe
+E:\抽奖\抽奖\bin\Debug\抽奖.pdb
+E:\抽奖\抽奖\obj\x86\Debug\抽奖.Form1.resources
+E:\抽奖\抽奖\obj\x86\Debug\抽奖.Properties.Resources.resources
+E:\抽奖\抽奖\obj\x86\Debug\抽奖.csproj.GenerateResource.Cache
+E:\抽奖\抽奖\obj\x86\Debug\抽奖.exe.manifest
+E:\抽奖\抽奖\obj\x86\Debug\抽奖.application
+E:\抽奖\抽奖\obj\x86\Debug\抽奖.csprojResolveAssemblyReference.cache
