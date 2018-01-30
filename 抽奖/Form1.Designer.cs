@@ -122,7 +122,7 @@
             this.Controls.Add(this.btnStart);
             this.Font = new System.Drawing.Font("宋体", 9F);
             this.Name = "Form1";
-            this.Text = "抽奖小程序（Timothy 1.2）";
+            this.Text = "抽奖小程序（Timothy 2.0）";
             this.ResumeLayout(false);
             this.PerformLayout();
 

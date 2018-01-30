@@ -66,6 +66,10 @@ namespace 抽奖
             this.btnStop.Enabled = false;
             this.btnStart.Enabled = true;
             this.btnStart.Focus();
+            if (curRound == round) 
+            {
+                btnStart.Enabled = false;
+            }
         }
         #endregion
 
@@ -74,6 +78,7 @@ namespace 抽奖
         {
             loadCountRound();
             this.label2.Text = "获奖名单（" + curRound + "/" + round + "）";
+            this.btnStart.Enabled = true;
             this.btnStart.Focus();
         }
         #endregion
@@ -130,38 +135,43 @@ namespace 抽奖
 
             DataRow ADR1 = ADt.NewRow();
             ADR1[0] = 1;
-            ADR1[1] = "三等奖";
+            ADR1[1] = "部门三等奖";
             ADt.Rows.Add(ADR1);
 
             DataRow ADR2 = ADt.NewRow();
             ADR2[0] = 2;
-            ADR2[1] = "二等奖";
+            ADR2[1] = "部门二等奖";
             ADt.Rows.Add(ADR2);
 
             DataRow ADR3 = ADt.NewRow();
             ADR3[0] = 3;
-            ADR3[1] = "一等奖";
+            ADR3[1] = "部门一等奖";
             ADt.Rows.Add(ADR3);
 
             DataRow ADR4 = ADt.NewRow();
             ADR4[0] = 4;
-            ADR4[1] = "特等奖";
+            ADR4[1] = "部门特别奖";
             ADt.Rows.Add(ADR4);
 
             DataRow ADR5 = ADt.NewRow();
             ADR5[0] = 5;
-            ADR5[1] = "特别神秘奖";
+            ADR5[1] = "工会赞助三等奖";
             ADt.Rows.Add(ADR5);
 
             DataRow ADR6 = ADt.NewRow();
             ADR6[0] = 6;
-            ADR6[1] = "工会赞助一等奖";
+            ADR6[1] = "工会赞助二等奖";
             ADt.Rows.Add(ADR6);
 
             DataRow ADR7 = ADt.NewRow();
             ADR7[0] = 7;
-            ADR7[1] = "部门一等奖";
+            ADR7[1] = "工会赞助一等奖";
             ADt.Rows.Add(ADR7);
+
+            DataRow ADR8 = ADt.NewRow();
+            ADR8[0] = 8;
+            ADR8[1] = "总经理特别奖";
+            ADt.Rows.Add(ADR8);
             //进行绑定  
             comboBox1.DisplayMember = "F_Name";//控件显示的列名  
             comboBox1.ValueMember = "F_ID";//控件值的列名  
@@ -188,12 +198,12 @@ namespace 抽奖
             if ((int)this.comboBox1.SelectedValue == 0)
             {
                 count = 10;
-                round = 7;
+                round = 8;
             }
             if ((int)this.comboBox1.SelectedValue == 1)
             {
-                count = 10;
-                round = 5;
+                count = 5;
+                round = 10;
             }
             if ((int)this.comboBox1.SelectedValue == 2)
             {
@@ -207,23 +217,28 @@ namespace 抽奖
             }
             if ((int)this.comboBox1.SelectedValue == 4)
             {
-                count = 5;
-                round = 1;
+                count = 1;
+                round = 5;
             }
             if ((int)this.comboBox1.SelectedValue == 5)
             {
-                count = 5;
-                round = 1;
+                count = 8;
+                round = 3;
             }
             if ((int)this.comboBox1.SelectedValue == 6)
             {
-                count = 6;
-                round = 1;
+                count = 9;
+                round = 2;
             }
             if ((int)this.comboBox1.SelectedValue == 7)
             {
-                count = 5;
-                round = 2;
+                count = 4;
+                round = 3;
+            }
+            if ((int)this.comboBox1.SelectedValue == 8)
+            {
+                count = 1;
+                round = 6;
             }
             curRound = 0;
             curPride = (string)this.comboBox1.Text;
