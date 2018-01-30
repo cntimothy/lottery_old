@@ -172,6 +172,21 @@ namespace 抽奖
             ADR8[0] = 8;
             ADR8[1] = "总经理特别奖";
             ADt.Rows.Add(ADR8);
+
+            DataRow ADR9 = ADt.NewRow();
+            ADR9[0] = 9;
+            ADR9[1] = "中心赞助奖";
+            ADt.Rows.Add(ADR9);
+
+            DataRow ADR10 = ADt.NewRow();
+            ADR10[0] = 10;
+            ADR10[1] = "抽奖一";
+            ADt.Rows.Add(ADR10);
+
+            DataRow ADR11 = ADt.NewRow();
+            ADR11[0] = 11;
+            ADR11[1] = "抽奖二";
+            ADt.Rows.Add(ADR11);
             //进行绑定  
             comboBox1.DisplayMember = "F_Name";//控件显示的列名  
             comboBox1.ValueMember = "F_ID";//控件值的列名  
@@ -239,6 +254,21 @@ namespace 抽奖
             {
                 count = 1;
                 round = 6;
+            }
+            if ((int)this.comboBox1.SelectedValue == 9)
+            {
+                count = 1;
+                round = 30;
+            }
+            if ((int)this.comboBox1.SelectedValue == 10)
+            {
+                count = 1;
+                round = 20;
+            }
+            if ((int)this.comboBox1.SelectedValue == 11)
+            {
+                count = 1;
+                round = 20;
             }
             curRound = 0;
             curPride = (string)this.comboBox1.Text;
