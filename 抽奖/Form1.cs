@@ -103,6 +103,7 @@ namespace 抽奖
             thread.Start();
             this.btnStop.Enabled = true;
             this.btnStart.Enabled = false;
+            this.comboBox1.Enabled = false;
             this.btnStop.Focus();
         }
 
@@ -113,6 +114,7 @@ namespace 抽奖
             Thread thread = new Thread(new ThreadStart(writeName));
             thread.Start();
             this.btnStop.Enabled = false;
+            this.comboBox1.Enabled = true;
             if (curRound == round)
             {
                 btnStart.Enabled = false;
@@ -130,6 +132,7 @@ namespace 抽奖
         {
             loadCountRound();
             this.label2.Text = "获奖名单（" + curRound + "/" + round + "）";
+            this.label1.Text = "";
             this.btnStart.Enabled = true;
             this.btnStart.Focus();
             if (picName.Equals(""))
