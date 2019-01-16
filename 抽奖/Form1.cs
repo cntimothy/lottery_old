@@ -305,8 +305,8 @@ namespace 抽奖
             ADR13[0] = 13;
             ADR13[1] = "工会一等奖（美的压力锅）";
             ADR13[2] = "pic_13.jpg";
-            ADR13[3] = 20;
-            ADR13[4] = 1;
+            ADR13[3] = 10;
+            ADR13[4] = 2;
             ADt.Rows.Add(ADR13);
 
             DataRow ADR14 = ADt.NewRow();
