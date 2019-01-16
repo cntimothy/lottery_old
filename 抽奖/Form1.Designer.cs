@@ -35,13 +35,15 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.pbReward = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pbReward)).BeginInit();
             this.SuspendLayout();
             // 
             // btnStart
             // 
             this.btnStart.BackColor = System.Drawing.Color.Gold;
             this.btnStart.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnStart.Location = new System.Drawing.Point(564, 247);
+            this.btnStart.Location = new System.Drawing.Point(241, 482);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(97, 37);
             this.btnStart.TabIndex = 0;
@@ -54,7 +56,7 @@
             this.btnStop.BackColor = System.Drawing.Color.Gold;
             this.btnStop.Enabled = false;
             this.btnStop.Font = new System.Drawing.Font("宋体", 15F);
-            this.btnStop.Location = new System.Drawing.Point(564, 306);
+            this.btnStop.Location = new System.Drawing.Point(428, 482);
             this.btnStop.Name = "btnStop";
             this.btnStop.Size = new System.Drawing.Size(97, 37);
             this.btnStop.TabIndex = 1;
@@ -67,9 +69,9 @@
             this.comboBox1.BackColor = System.Drawing.Color.Gold;
             this.comboBox1.Font = new System.Drawing.Font("宋体", 14F);
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(510, 179);
+            this.comboBox1.Location = new System.Drawing.Point(467, 171);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(194, 27);
+            this.comboBox1.Size = new System.Drawing.Size(275, 27);
             this.comboBox1.TabIndex = 3;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -107,6 +109,15 @@
             this.label3.TabIndex = 7;
             this.label3.Text = "幸运大抽奖";
             // 
+            // pbReward
+            // 
+            this.pbReward.Location = new System.Drawing.Point(496, 222);
+            this.pbReward.Name = "pbReward";
+            this.pbReward.Size = new System.Drawing.Size(207, 215);
+            this.pbReward.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbReward.TabIndex = 8;
+            this.pbReward.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -114,6 +125,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(784, 562);
+            this.Controls.Add(this.pbReward);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -123,6 +135,7 @@
             this.Font = new System.Drawing.Font("宋体", 9F);
             this.Name = "Form1";
             this.Text = "抽奖小程序（Timothy 2.0）";
+            ((System.ComponentModel.ISupportInitialize)(this.pbReward)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -136,6 +149,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.PictureBox pbReward;
     }
 }
 
